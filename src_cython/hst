@@ -1,0 +1,111 @@
+#!/bin/bash
+
+# hst - Startup script for hansol TA server
+
+PIDFILEPATH=./hst.pid
+
+start()
+{
+	echo -n $"Start hansol TA: "
+	nohup python statsmain.py >/dev/null 2>&1 &
+	RETVAL=$?
+	echo
+}
+
+stop()
+{
+	echo -n $"Stopping hansol TA: "
+	killproc "$PIDFILEPATH"
+	if [ $? -eq 1 ]
+	then
+		echo "Termination success."
+	else
+		echo "Termination failed."
+	fi
+}
+
+restart()
+{
+	stop
+	start
+}
+
+reload()
+{
+	local pid_file="$PIDFILEPATH"
+	local pid=$(getprocessid "$pid_file")
+
+	kill -USR1 $pid > /dev/null 2>&1
+}
+
+retrain()
+{
+	local pid_file="$PIDFILEPATH"
+	local pid=$(getprocessid "$pid_file")
+
+	kill -USR2 $pid > /dev/null 2>&1
+}
+
+getprocessid()
+{
+	local pid=`cat "$1" | awk '{print $0}'`
+	echo "$pid"
+}
+
+killproc()
+{
+	local pid_file=$1
+	local pid=$(getprocessid "$pid_file")
+	local -i x=0
+	local -i delay=60
+	local -i duration=5
+
+	kill -TERM $pid > /dev/null 2>&1
+	usleep 20000
+	while [ $x -le $delay ]
+	do
+		if ps -p $pid > /dev/null
+		then
+			echo
+			echo "$pid is running. Retry termination process"
+		else
+			return 1
+		fi
+		sleep $duration
+		x=$(( $x + $duration))
+	done
+
+	kill -KILL $pid > /dev/null 2>&1
+	usleep 10000
+
+	local RC=$?
+	if ps -p $pid > /dev/null
+	then
+		RC=0 #failed to stop server
+	else
+		RC=1 #success
+	fi
+
+	return $RC
+}
+
+RETVAL=0
+
+case "$1" in
+  start)
+    start
+	;;
+  stop)
+	stop
+	;;
+  #restart|reload)
+  restart)
+    restart
+	;;
+
+  *)
+    echo "Usage: $0 {start|stop|restart}"
+	RETVAL=1
+esac
+
+exit $RETVAL

@@ -1,0 +1,160 @@
+#! /usr/bin/python
+# -*- coding: utf-8 -*-
+"""
+    (C) Copyright Hansol Inticube Ltd,
+        Writer : Jin Kak, Jung
+        Revision history : 
+            First released on Apr, 30, 2017
+"""
+# Import OS related packages
+from os import listdir
+from os.path import isfile, join
+
+from ds_proc import ds_proc
+
+# Import packages for directory watcher implementation
+import pyinotify
+import signal, sys, time
+import Queue
+import json
+
+from utils import log, utils
+
+class App(object):
+
+    global log_filename
+    global data_directory
+
+    def __init__(self):
+        pass
+
+    def __enter__(self):
+        self._read_config("./ds.conf")
+        log_filename = self.dir_log + "/DS.log"
+        data_directory = self.dir_data
+        self.logger = log("DS main", log_filename)
+        self.utils = utils()
+
+        self.exit_directory_watcher_thread = False
+        self.reload_dictionary = False
+        self.re_training = False
+        self.set_directory_watcher_option(data_directory)
+        self.dp = ds_proc(_num_threads=self.cores, _log_filename=log_filename, _parent=self,
+                _mongodb_host=self.db_host, _mongodb_port=self.db_port, _mongodb_db=self.database)
+        self.q_files = Queue.Queue()
+        # set signal handler
+        signal.signal(signal.SIGTERM, self.signal_handler)
+        signal.signal(signal.SIGUSR1, self.signal_handler)
+        signal.signal(signal.SIGUSR2, self.signal_handler)
+
+        self.utils.write_pid_of_process("hds")
+        self.logger.write_log("info", "Enter to app")    
+
+    def __exit__(self, type, value, traceback):
+        self._release_resource()
+        self.logger.write_log("info", "Exit from app")
+
+    def _release_resource(self):
+        if (self.dp != None):
+            del self.dp
+        if (self.wm != None):
+            del self.wm
+        if (self.q_files != None):
+            del self.q_files
+        if (self.logger != None):
+            del self.logger
+        if (self.utils != None):
+            del self.utils
+
+    def _read_config(self, _filename):
+        try:
+            with open(_filename) as f:
+                data = json.load(f)
+            self.cores = data["parallel"]["cores"]
+            self.db_host = data["mdb"]["host"]
+            self.db_port = data["mdb"]["port"]
+            self.database = data["mdb"]["database"]
+            self.dir_log = data["directory"]["log"]
+            self.dir_data = data["directory"]["data"]
+        except Exception as e:
+            print 'exception : ', e
+            raise e
+
+    def set_directory_watcher_option(self, _data_directory):
+        self.wm = pyinotify.WatchManager()
+        mask = pyinotify.IN_DELETE | pyinotify.IN_CLOSE_WRITE | pyinotify.IN_MOVED_TO
+        self.wm.add_watch(_data_directory, mask, rec=True)
+
+        class NotifyHandler(pyinotify.ProcessEvent):
+            def process_IN_CLOSE_WRITE(self_inner, event):
+                self.q_files.put(event.pathname)
+                #print "File was close write:", event.pathname
+
+            def process_IN_MOVED_TO(self_inner, event):
+                self.q_files.put(event.pathname)
+                #print "File was moved to directory:", event.pathname
+
+            def process_IN_DELETE(self_inner, event):
+                pass
+
+        self.notifier = pyinotify.ThreadedNotifier(self.wm, NotifyHandler())
+
+    def signal_handler(self, signal, frame):
+        self.logger.write_log("warning", "signal caught %d" % signal)
+        if signal == 15:
+            self.exit_directory_watcher_thread = True
+        elif signal == 10:
+            self.reload_dictionary = True
+        elif signal == 12:
+            self.re_training = True
+
+    def run(self):
+        self.notifier.start()
+        while True:
+            filenames = []
+            while not self.q_files.empty():
+                filename = self.q_files.get()
+                if filename[-4:] == '.swp' or filename[-5:] == '.swpx':
+                    pass
+                else:
+                    filenames.append(filename)
+
+                self.q_files.task_done()
+
+            if len(filenames) > 0:
+                self.dp.do_processing(filenames)
+            if self.exit_directory_watcher_thread == True:
+                self.q_files.join()
+                break
+
+            if self.reload_dictionary == True:
+                try:
+                    self.tp.do_reload_dictionary()
+                except Exception, e:
+                    self.logger.write_log("error", e)
+                finally:
+                    self.reload_dictionary = False;
+
+            if self.re_training == True:
+                try:
+                    self.tp.do_training()
+                except Exception, e:
+                    self.logger.write_log("error", e)
+                finally:
+                    self.re_training = False
+
+            time.sleep(1)
+
+        self.notifier.stop()     
+        self.utils.delete_pid_file("hds")
+
+if __name__=='__main__':
+
+    app = App()
+
+    with app:
+        app.run()
+
+    del app
+    sys.exit(0)
+

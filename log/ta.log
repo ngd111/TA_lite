@@ -1,0 +1,399 @@
+2017-05-25 16:26:22,097 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801104209, thread id => 0
+2017-05-25 16:26:22,153 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801111007, thread id => 2
+2017-05-25 16:26:22,408 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801111339, thread id => 1
+2017-05-25 16:26:22,648 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801114130, thread id => 3
+2017-05-25 16:26:22,718 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801114830, thread id => 2
+2017-05-25 16:26:22,832 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801115130, thread id => 0
+2017-05-25 16:26:23,156 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801131022, thread id => 1
+2017-05-25 16:26:23,290 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801131546, thread id => 2
+2017-05-25 16:26:23,341 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801132244, thread id => 0
+2017-05-25 16:26:23,580 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801132504, thread id => 3
+2017-05-25 16:26:23,583 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801141358, thread id => 1
+2017-05-25 16:26:23,644 - root - WARNING - File => 709720160801141358, exception(full sentences) => empty vocabulary; perhaps the documents only contain stop words
+2017-05-25 16:26:23,646 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801145240, thread id => 1
+2017-05-25 16:26:23,651 - root - WARNING - File => 709720160801132244, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:23,673 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801145607, thread id => 0
+2017-05-25 16:26:23,693 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801151008, thread id => 2
+2017-05-25 16:26:23,941 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801151401, thread id => 3
+2017-05-25 16:26:23,945 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801152406, thread id => 1
+2017-05-25 16:26:23,977 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801153624, thread id => 0
+2017-05-25 16:26:24,230 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801154637, thread id => 2
+2017-05-25 16:26:24,734 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801154919, thread id => 1
+2017-05-25 16:26:24,871 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801155913, thread id => 2
+2017-05-25 16:26:25,131 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801160351, thread id => 0
+2017-05-25 16:26:25,149 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801162051, thread id => 3
+2017-05-25 16:26:25,393 - root - WARNING - File => 709720160801154919, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:25,457 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801170230, thread id => 1
+2017-05-25 16:26:25,652 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801170709, thread id => 2
+2017-05-25 16:26:25,809 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801171340, thread id => 0
+2017-05-25 16:26:25,905 - root - WARNING - File => 709720160801170230, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:25,949 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801172055, thread id => 1
+2017-05-25 16:26:26,275 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801172409, thread id => 2
+2017-05-25 16:26:26,301 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801172755, thread id => 0
+2017-05-25 16:26:26,329 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801173012, thread id => 1
+2017-05-25 16:26:26,333 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801173941, thread id => 3
+2017-05-25 16:26:26,642 - root - WARNING - File => 709720160801173012, exception(rx sentences) => empty vocabulary; perhaps the documents only contain stop words
+2017-05-25 16:26:26,658 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801174400, thread id => 1
+2017-05-25 16:26:26,712 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801174805, thread id => 2
+2017-05-25 16:26:26,759 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801175406, thread id => 0
+2017-05-25 16:26:26,826 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709720160801180137, thread id => 3
+2017-05-25 16:26:27,024 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801090213, thread id => 1
+2017-05-25 16:26:27,051 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801092005, thread id => 2
+2017-05-25 16:26:27,101 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801093415, thread id => 0
+2017-05-25 16:26:27,102 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801093850, thread id => 3
+2017-05-25 16:26:27,689 - root - WARNING - File => 709820160801093850, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:27,712 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801094331, thread id => 0
+2017-05-25 16:26:27,730 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801094622, thread id => 3
+2017-05-25 16:26:27,992 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801095250, thread id => 1
+2017-05-25 16:26:28,211 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801100021, thread id => 2
+2017-05-25 16:26:28,308 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801100559, thread id => 0
+2017-05-25 16:26:28,388 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801101003, thread id => 3
+2017-05-25 16:26:28,825 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801102437, thread id => 2
+2017-05-25 16:26:28,840 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801104142, thread id => 0
+2017-05-25 16:26:28,901 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801104252, thread id => 3
+2017-05-25 16:26:28,904 - root - WARNING - File => 709820160801104142, exception(full sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:28,913 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801104911, thread id => 0
+2017-05-25 16:26:28,957 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801105431, thread id => 1
+2017-05-25 16:26:29,379 - root - WARNING - File => 709820160801104252, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:29,435 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801105821, thread id => 3
+2017-05-25 16:26:29,582 - root - WARNING - File => 709820160801105431, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:29,624 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801110428, thread id => 1
+2017-05-25 16:26:29,644 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801110954, thread id => 0
+2017-05-25 16:26:29,647 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801111232, thread id => 2
+2017-05-25 16:26:29,852 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801111403, thread id => 3
+2017-05-25 16:26:30,107 - root - WARNING - File => 709820160801110954, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:30,123 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801112519, thread id => 0
+2017-05-25 16:26:30,134 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801113815, thread id => 2
+2017-05-25 16:26:30,244 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801114105, thread id => 1
+2017-05-25 16:26:30,567 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801114358, thread id => 2
+2017-05-25 16:26:30,643 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801115426, thread id => 3
+2017-05-25 16:26:30,699 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801115625, thread id => 1
+2017-05-25 16:26:30,867 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801130006, thread id => 0
+2017-05-25 16:26:31,187 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801130826, thread id => 3
+2017-05-25 16:26:31,601 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801131340, thread id => 0
+2017-05-25 16:26:31,679 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801131514, thread id => 2
+2017-05-25 16:26:31,814 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801132127, thread id => 1
+2017-05-25 16:26:31,821 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801132258, thread id => 3
+2017-05-25 16:26:32,106 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801132524, thread id => 0
+2017-05-25 16:26:32,159 - root - WARNING - File => 709820160801132127, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:32,205 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801133315, thread id => 1
+2017-05-25 16:26:32,223 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801133937, thread id => 2
+2017-05-25 16:26:32,303 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801134200, thread id => 3
+2017-05-25 16:26:32,580 - root - WARNING - File => 709820160801133937, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:32,626 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801135151, thread id => 2
+2017-05-25 16:26:32,650 - root - WARNING - File => 709820160801132524, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:32,707 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801135529, thread id => 0
+2017-05-25 16:26:32,784 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801140712, thread id => 1
+2017-05-25 16:26:33,223 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801141020, thread id => 0
+2017-05-25 16:26:33,232 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801141230, thread id => 2
+2017-05-25 16:26:33,311 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801141505, thread id => 3
+2017-05-25 16:26:33,449 - root - WARNING - File => 709820160801140712, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:33,489 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801142256, thread id => 1
+2017-05-25 16:26:33,775 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801142738, thread id => 0
+2017-05-25 16:26:33,814 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801143034, thread id => 2
+2017-05-25 16:26:34,326 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801143326, thread id => 3
+2017-05-25 16:26:34,334 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801144226, thread id => 1
+2017-05-25 16:26:34,335 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801145844, thread id => 0
+2017-05-25 16:26:34,336 - root - WARNING - File => 709820160801143034, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:34,368 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801150724, thread id => 2
+2017-05-25 16:26:34,971 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801151834, thread id => 0
+2017-05-25 16:26:35,066 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801151943, thread id => 2
+2017-05-25 16:26:35,074 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801152117, thread id => 3
+2017-05-25 16:26:35,334 - root - WARNING - File => 709820160801151834, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:35,351 - root - WARNING - File => 709820160801152117, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:35,352 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801152354, thread id => 0
+2017-05-25 16:26:35,365 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801152836, thread id => 3
+2017-05-25 16:26:35,508 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801152940, thread id => 2
+2017-05-25 16:26:35,584 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801153205, thread id => 1
+2017-05-25 16:26:35,661 - root - WARNING - File => 709820160801152836, exception(tx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:35,720 - root - WARNING - File => 709820160801152836, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:35,753 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801153651, thread id => 3
+2017-05-25 16:26:35,988 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801154224, thread id => 0
+2017-05-25 16:26:36,090 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801154923, thread id => 2
+2017-05-25 16:26:36,238 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801155627, thread id => 1
+2017-05-25 16:26:36,429 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801155916, thread id => 3
+2017-05-25 16:26:36,740 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801160459, thread id => 2
+2017-05-25 16:26:36,777 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801160554, thread id => 1
+2017-05-25 16:26:36,822 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801160933, thread id => 0
+2017-05-25 16:26:37,031 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801162211, thread id => 2
+2017-05-25 16:26:37,044 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801170020, thread id => 3
+2017-05-25 16:26:37,477 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801170908, thread id => 1
+2017-05-25 16:26:37,815 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801173321, thread id => 0
+2017-05-25 16:26:37,853 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801173759, thread id => 3
+2017-05-25 16:26:38,252 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801174147, thread id => 2
+2017-05-25 16:26:38,286 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801174950, thread id => 1
+2017-05-25 16:26:38,385 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801175501, thread id => 0
+2017-05-25 16:26:38,435 - root - WARNING - File => 709820160801173759, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:38,461 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801175751, thread id => 3
+2017-05-25 16:26:38,825 - root - WARNING - File => 709820160801175501, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:38,867 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709820160801175945, thread id => 0
+2017-05-25 16:26:38,879 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801090300, thread id => 3
+2017-05-25 16:26:38,962 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801091025, thread id => 1
+2017-05-25 16:26:39,008 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801091655, thread id => 2
+2017-05-25 16:26:39,361 - root - WARNING - File => 709820160801175945, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:39,421 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801092218, thread id => 0
+2017-05-25 16:26:39,598 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801092529, thread id => 3
+2017-05-25 16:26:39,681 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801092850, thread id => 2
+2017-05-25 16:26:39,783 - root - WARNING - File => 709920160801092218, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:39,796 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801093826, thread id => 0
+2017-05-25 16:26:39,903 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801094129, thread id => 1
+2017-05-25 16:26:40,032 - root - WARNING - File => 709920160801092529, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:40,062 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801094540, thread id => 3
+2017-05-25 16:26:40,373 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801094907, thread id => 2
+2017-05-25 16:26:40,376 - root - WARNING - File => 709920160801093826, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:40,421 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801095729, thread id => 0
+2017-05-25 16:26:40,669 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801100805, thread id => 1
+2017-05-25 16:26:40,757 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801100905, thread id => 3
+2017-05-25 16:26:41,036 - root - WARNING - File => 709920160801100805, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:41,062 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801101045, thread id => 1
+2017-05-25 16:26:41,126 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801101655, thread id => 0
+2017-05-25 16:26:41,328 - root - WARNING - File => 709920160801100905, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:41,369 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801102128, thread id => 3
+2017-05-25 16:26:41,444 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801102644, thread id => 2
+2017-05-25 16:26:41,652 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801102957, thread id => 0
+2017-05-25 16:26:42,027 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801103847, thread id => 1
+2017-05-25 16:26:42,119 - root - WARNING - File => 709920160801102644, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:42,131 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801104108, thread id => 3
+2017-05-25 16:26:42,135 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801104320, thread id => 0
+2017-05-25 16:26:42,142 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801104857, thread id => 2
+2017-05-25 16:26:42,376 - root - WARNING - File => 709920160801103847, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:42,398 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801105053, thread id => 1
+2017-05-25 16:26:42,548 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801105248, thread id => 2
+2017-05-25 16:26:42,630 - root - WARNING - File => 709920160801104320, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:42,664 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801105532, thread id => 0
+2017-05-25 16:26:42,677 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801110305, thread id => 3
+2017-05-25 16:26:42,846 - root - WARNING - File => 709920160801105053, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:42,870 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801110845, thread id => 1
+2017-05-25 16:26:42,983 - root - WARNING - File => 709920160801105248, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:43,021 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801112323, thread id => 2
+2017-05-25 16:26:43,265 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801112738, thread id => 3
+2017-05-25 16:26:43,805 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801113500, thread id => 0
+2017-05-25 16:26:43,847 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801114127, thread id => 2
+2017-05-25 16:26:44,006 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801114806, thread id => 3
+2017-05-25 16:26:44,143 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801115851, thread id => 1
+2017-05-25 16:26:44,226 - root - WARNING - File => 709920160801115851, exception(full sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:44,230 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801120023, thread id => 1
+2017-05-25 16:26:44,480 - root - WARNING - File => 709920160801120023, exception(full sentences) => empty vocabulary; perhaps the documents only contain stop words
+2017-05-25 16:26:44,486 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801120130, thread id => 1
+2017-05-25 16:26:44,549 - root - WARNING - File => 709920160801120130, exception(full sentences) => empty vocabulary; perhaps the documents only contain stop words
+2017-05-25 16:26:44,552 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801120227, thread id => 1
+2017-05-25 16:26:44,706 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801130036, thread id => 0
+2017-05-25 16:26:44,706 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801130753, thread id => 3
+2017-05-25 16:26:44,934 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801131049, thread id => 2
+2017-05-25 16:26:45,551 - root - WARNING - File => 709920160801131049, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:45,564 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801132832, thread id => 2
+2017-05-25 16:26:45,619 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801133203, thread id => 3
+2017-05-25 16:26:45,868 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801133302, thread id => 1
+2017-05-25 16:26:45,874 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801133616, thread id => 0
+2017-05-25 16:26:46,112 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801133958, thread id => 3
+2017-05-25 16:26:46,347 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801134204, thread id => 2
+2017-05-25 16:26:46,490 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801134826, thread id => 1
+2017-05-25 16:26:46,491 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801135616, thread id => 0
+2017-05-25 16:26:46,610 - root - WARNING - File => 709920160801133958, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:46,662 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801140936, thread id => 3
+2017-05-25 16:26:47,265 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801141723, thread id => 0
+2017-05-25 16:26:47,371 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801143128, thread id => 2
+2017-05-25 16:26:47,495 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801143322, thread id => 1
+2017-05-25 16:26:47,901 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801144451, thread id => 3
+2017-05-25 16:26:48,187 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801145028, thread id => 2
+2017-05-25 16:26:48,626 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801151522, thread id => 1
+2017-05-25 16:26:48,792 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801152019, thread id => 3
+2017-05-25 16:26:48,821 - root - WARNING - File => 709920160801145028, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:48,822 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801152303, thread id => 0
+2017-05-25 16:26:48,854 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801152612, thread id => 2
+2017-05-25 16:26:49,213 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801153316, thread id => 1
+2017-05-25 16:26:49,418 - root - WARNING - File => 709920160801152019, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:49,459 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801153702, thread id => 3
+2017-05-25 16:26:49,557 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801153929, thread id => 0
+2017-05-25 16:26:49,888 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801155127, thread id => 2
+2017-05-25 16:26:49,913 - root - WARNING - File => 709920160801153702, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:49,933 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801155721, thread id => 3
+2017-05-25 16:26:49,955 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801160301, thread id => 1
+2017-05-25 16:26:50,546 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801161549, thread id => 2
+2017-05-25 16:26:50,651 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801161951, thread id => 0
+2017-05-25 16:26:50,957 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801170017, thread id => 3
+2017-05-25 16:26:51,060 - root - WARNING - File => 709920160801161549, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:51,084 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801170324, thread id => 2
+2017-05-25 16:26:51,296 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801170741, thread id => 0
+2017-05-25 16:26:51,319 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801172012, thread id => 1
+2017-05-25 16:26:51,571 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801172305, thread id => 3
+2017-05-25 16:26:51,580 - root - WARNING - File => 709920160801170324, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:51,615 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801172440, thread id => 2
+2017-05-25 16:26:51,778 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801173205, thread id => 1
+2017-05-25 16:26:51,865 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801173947, thread id => 3
+2017-05-25 16:26:51,998 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801174153, thread id => 0
+2017-05-25 16:26:52,249 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801174659, thread id => 3
+2017-05-25 16:26:52,291 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/709920160801180007, thread id => 2
+2017-05-25 16:26:52,599 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801090124, thread id => 1
+2017-05-25 16:26:52,758 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801091010, thread id => 0
+2017-05-25 16:26:52,809 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801091500, thread id => 2
+2017-05-25 16:26:53,061 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801092244, thread id => 1
+2017-05-25 16:26:53,443 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801093832, thread id => 2
+2017-05-25 16:26:53,482 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801094047, thread id => 0
+2017-05-25 16:26:53,582 - root - WARNING - File => 710020160801092244, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:53,671 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801094929, thread id => 1
+2017-05-25 16:26:53,788 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801095032, thread id => 3
+2017-05-25 16:26:53,853 - root - WARNING - File => 710020160801093832, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:53,946 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801101628, thread id => 2
+2017-05-25 16:26:54,115 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801102436, thread id => 1
+2017-05-25 16:26:54,128 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801102858, thread id => 0
+2017-05-25 16:26:54,520 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801103412, thread id => 2
+2017-05-25 16:26:54,996 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801103757, thread id => 0
+2017-05-25 16:26:55,018 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801104224, thread id => 1
+2017-05-25 16:26:55,220 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801104441, thread id => 2
+2017-05-25 16:26:55,392 - root - WARNING - File => 710020160801103757, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:55,456 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801105618, thread id => 0
+2017-05-25 16:26:55,500 - root - WARNING - File => 710020160801104224, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:55,535 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801105853, thread id => 1
+2017-05-25 16:26:55,799 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801110837, thread id => 3
+2017-05-25 16:26:55,803 - root - WARNING - File => 710020160801105618, exception(tx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:55,844 - root - WARNING - File => 710020160801105618, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:55,867 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801111109, thread id => 0
+2017-05-25 16:26:56,203 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801111245, thread id => 0
+2017-05-25 16:26:56,329 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801111702, thread id => 3
+2017-05-25 16:26:56,396 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801113420, thread id => 2
+2017-05-25 16:26:56,446 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801113744, thread id => 1
+2017-05-25 16:26:56,751 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801114235, thread id => 0
+2017-05-25 16:26:56,940 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801114450, thread id => 2
+2017-05-25 16:26:57,055 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801114649, thread id => 1
+2017-05-25 16:26:57,080 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801115541, thread id => 3
+2017-05-25 16:26:57,319 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801115710, thread id => 0
+2017-05-25 16:26:57,458 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801130322, thread id => 2
+2017-05-25 16:26:57,525 - root - WARNING - File => 710020160801115541, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:57,594 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801132237, thread id => 3
+2017-05-25 16:26:58,033 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801132950, thread id => 0
+2017-05-25 16:26:58,066 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801133411, thread id => 1
+2017-05-25 16:26:58,352 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801133538, thread id => 2
+2017-05-25 16:26:58,399 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801134031, thread id => 3
+2017-05-25 16:26:58,452 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801134318, thread id => 0
+2017-05-25 16:26:58,457 - root - WARNING - File => 710020160801133411, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:26:58,474 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801135557, thread id => 1
+2017-05-25 16:26:58,903 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801135929, thread id => 3
+2017-05-25 16:26:59,109 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801140309, thread id => 2
+2017-05-25 16:26:59,189 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801140754, thread id => 1
+2017-05-25 16:26:59,590 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801142538, thread id => 3
+2017-05-25 16:26:59,720 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801143044, thread id => 0
+2017-05-25 16:26:59,811 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801143339, thread id => 2
+2017-05-25 16:26:59,875 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801143839, thread id => 1
+2017-05-25 16:27:00,270 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801144228, thread id => 0
+2017-05-25 16:27:00,283 - root - WARNING - File => 710020160801143839, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:27:00,298 - root - WARNING - File => 710020160801143339, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:27:00,302 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801144440, thread id => 3
+2017-05-25 16:27:00,310 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801144816, thread id => 1
+2017-05-25 16:27:00,338 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801144924, thread id => 2
+2017-05-25 16:27:00,396 - root - WARNING - File => 710020160801144816, exception(full sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:27:00,404 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801145727, thread id => 1
+2017-05-25 16:27:00,518 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801150200, thread id => 0
+2017-05-25 16:27:00,708 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801150851, thread id => 3
+2017-05-25 16:27:01,004 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801151030, thread id => 1
+2017-05-25 16:27:01,098 - root - WARNING - File => 710020160801150851, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:27:01,118 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801152154, thread id => 2
+2017-05-25 16:27:01,164 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801152356, thread id => 3
+2017-05-25 16:27:01,262 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801153116, thread id => 0
+2017-05-25 16:27:01,716 - root - WARNING - File => 710020160801152154, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:27:01,764 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801153750, thread id => 2
+2017-05-25 16:27:01,875 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801154027, thread id => 1
+2017-05-25 16:27:01,883 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801154444, thread id => 3
+2017-05-25 16:27:01,912 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801155220, thread id => 0
+2017-05-25 16:27:02,229 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801155936, thread id => 2
+2017-05-25 16:27:02,398 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801160809, thread id => 0
+2017-05-25 16:27:02,476 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801161127, thread id => 1
+2017-05-25 16:27:02,652 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801161550, thread id => 3
+2017-05-25 16:27:02,989 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801162119, thread id => 0
+2017-05-25 16:27:03,067 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801162446, thread id => 2
+2017-05-25 16:27:03,185 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801162653, thread id => 1
+2017-05-25 16:27:03,497 - root - WARNING - File => 710020160801162446, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:27:03,502 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801170805, thread id => 3
+2017-05-25 16:27:03,528 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801171220, thread id => 0
+2017-05-25 16:27:03,529 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801172017, thread id => 2
+2017-05-25 16:27:03,685 - root - WARNING - File => 710020160801162653, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:27:03,727 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801172804, thread id => 1
+2017-05-25 16:27:03,974 - root - WARNING - File => 710020160801172017, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:27:03,990 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801173305, thread id => 2
+2017-05-25 16:27:03,990 - root - WARNING - File => 710020160801170805, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 16:27:04,022 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801173729, thread id => 3
+2017-05-25 16:27:04,307 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801174408, thread id => 0
+2017-05-25 16:27:04,328 - root - INFO - extract keywords of /home/winddori/dev/TA_lite/data/test_t/710020160801174906, thread id => 1
+2017-05-25 16:27:04,331 - root - WARNING - File => 710020160801173729, exception(rx sentences) => After pruning, no terms remain. Try a lower min_df or a higher max_df.
+2017-05-25 17:20:41,903 - root - WARNING - signal caught 15
+2017-05-25 17:20:41,904 - root - INFO - Exit from app
+2017-05-25 17:20:41,905 - root - INFO - Base processing object deinitialized
+2017-05-25 17:20:41,905 - root - INFO - TA processing object deinitialized
+2017-05-26 07:46:52,554 - root - INFO - Base processing object initialized
+2017-05-26 07:46:52,555 - root - INFO - Base processing object deinitialized
+2017-05-26 07:46:52,555 - root - INFO - TA processing object deinitialized
+2017-05-29 01:05:23,379 - root - INFO - Base processing object initialized
+2017-05-29 01:05:23,388 - root - ERROR - exception occurred while reloading dictionary => 'ascii' codec can't decode byte 0xea in position 0: ordinal not in range(128)
+2017-05-29 01:05:23,982 - root - INFO - Base processing object deinitialized
+2017-05-29 01:05:23,982 - root - INFO - TA processing object deinitialized
+2017-05-29 01:43:34,943 - root - INFO - Base processing object initialized
+2017-05-29 01:43:34,944 - root - ERROR - exception occurred while reloading dictionary => 'ascii' codec can't decode byte 0xea in position 0: ordinal not in range(128)
+2017-05-29 01:43:35,512 - root - INFO - Base processing object deinitialized
+2017-05-29 01:43:35,513 - root - INFO - TA processing object deinitialized
+2017-05-29 01:45:53,578 - root - INFO - Base processing object initialized
+2017-05-29 01:45:53,580 - root - INFO - dictionary just loaded
+2017-05-29 01:45:53,581 - root - INFO - TA processing object initialized
+2017-05-29 01:45:53,817 - root - INFO - ================== Training report ==================
+2017-05-29 01:45:53,817 - root - INFO - 	 class 0 
+2017-05-29 01:45:53,819 - root - INFO - precision : 
+[ 0.75        0.66666667  0.5         1.          1.        ]
+recall : 
+[ 1.          0.66666667  0.33333333  0.33333333  0.        ]
+average precision : 
+0.763888888889
+2017-05-29 01:45:53,819 - root - INFO - 	 class 1 
+2017-05-29 01:45:53,822 - root - INFO - precision : 
+[ 0.92857143  0.92592593  0.96153846  0.96        0.95833333  0.95652174
+  0.95454545  1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.        ]
+recall : 
+[ 1.          0.96153846  0.96153846  0.92307692  0.88461538  0.84615385
+  0.80769231  0.80769231  0.76923077  0.73076923  0.69230769  0.65384615
+  0.61538462  0.57692308  0.53846154  0.5         0.46153846  0.42307692
+  0.38461538  0.34615385  0.30769231  0.26923077  0.23076923  0.19230769
+  0.15384615  0.11538462  0.07692308  0.03846154  0.        ]
+average precision : 
+0.990774834914
+2017-05-29 01:45:53,822 - root - INFO - 	 class 2 
+2017-05-29 01:45:53,824 - root - INFO - precision : 
+[ 0.66666667  0.64285714  0.69230769  0.75        0.81818182  0.9         1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.        ]
+recall : 
+[ 1.   0.9  0.9  0.9  0.9  0.9  0.9  0.8  0.7  0.6  0.5  0.4  0.3  0.2  0.1
+  0. ]
+average precision : 
+0.965476190476
+2017-05-29 01:45:53,826 - root - INFO - average precision : 
+[ 0.65        0.6440678   0.65517241  0.66666667  0.67857143  0.69090909
+  0.7037037   0.71698113  0.73076923  0.74509804  0.76        0.7755102
+  0.77083333  0.78723404  0.80434783  0.8         0.79545455  0.81395349
+  0.83333333  0.82926829  0.825       0.84615385  0.86842105  0.89189189
+  0.91666667  0.91428571  0.91176471  0.93939394  0.9375      0.93548387
+  0.96666667  0.96551724  0.96428571  0.96296296  0.96153846  1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.          1.          1.          1.          1.
+  1.          1.          1.        ]
+2017-05-29 01:45:53,829 - root - INFO - average recall    : 
+[ 1.          0.97435897  0.97435897  0.97435897  0.97435897  0.97435897
+  0.97435897  0.97435897  0.97435897  0.97435897  0.97435897  0.97435897
+  0.94871795  0.94871795  0.94871795  0.92307692  0.8974359   0.8974359
+  0.8974359   0.87179487  0.84615385  0.84615385  0.84615385  0.84615385
+  0.84615385  0.82051282  0.79487179  0.79487179  0.76923077  0.74358974
+  0.74358974  0.71794872  0.69230769  0.66666667  0.64102564  0.64102564
+  0.61538462  0.58974359  0.56410256  0.53846154  0.51282051  0.48717949
+  0.46153846  0.43589744  0.41025641  0.38461538  0.35897436  0.33333333
+  0.30769231  0.28205128  0.25641026  0.23076923  0.20512821  0.17948718
+  0.15384615  0.12820513  0.1025641   0.07692308  0.05128205  0.02564103
+  0.        ]
+2017-05-29 01:45:53,829 - root - INFO - 	 micro average precision : 0.954842
+2017-05-29 01:45:53,829 - root - INFO - ================== End of report ====================
+2017-05-29 01:45:53,829 - root - INFO - Dataset training completed
+2017-05-29 01:45:53,830 - root - INFO - Enter to app
+2017-05-29 01:46:25,619 - root - WARNING - signal caught 15
+2017-05-29 01:46:25,620 - root - INFO - Exit from app
+2017-05-29 01:46:25,620 - root - INFO - Base processing object deinitialized
+2017-05-29 01:46:25,621 - root - INFO - TA processing object deinitialized
